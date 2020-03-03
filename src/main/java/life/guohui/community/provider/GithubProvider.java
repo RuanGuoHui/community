@@ -26,6 +26,7 @@ public class GithubProvider {
             String string = response.body().string();
             //string:access_token=d33b7a020fb14111fb780e041834efdf890872f9&scope=&token_type=bearer
             //按照这个格式拿到token
+            System.out.println(string);
             String token = string.split("&")[0].split("=")[1];
             return token;
         } catch (Exception e) {
