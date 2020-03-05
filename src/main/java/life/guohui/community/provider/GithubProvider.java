@@ -1,7 +1,7 @@
 package life.guohui.community.provider;
 
 import com.alibaba.fastjson.JSON;
-import life.guohui.community.dto.AccessTokendDTO;
+import life.guohui.community.dto.AccessTokenDTO;
 import life.guohui.community.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
@@ -11,7 +11,7 @@ import java.io.IOException;
 
 @Component
 public class GithubProvider {
-    public String getAccessToken(AccessTokendDTO accessTokendDTO) {
+    public String getAccessToken(AccessTokenDTO accessTokendDTO) {
         MediaType mediaType = MediaType.get("application/json; charset=utf-8");
 
         OkHttpClient client = new OkHttpClient();

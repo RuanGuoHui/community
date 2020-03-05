@@ -1,6 +1,6 @@
 package life.guohui.community.controller;
 
-import life.guohui.community.dto.AccessTokendDTO;
+import life.guohui.community.dto.AccessTokenDTO;
 import life.guohui.community.dto.GithubUser;
 import life.guohui.community.mapper.UserMapper;
 import life.guohui.community.model.User;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 
@@ -38,7 +37,7 @@ public class AuthorizeController {
     public String callback(@RequestParam(name="code") String code,
                            @RequestParam(name="state") String state,
                            HttpServletResponse response){
-        AccessTokendDTO accessTokendDTO = new AccessTokendDTO();
+        AccessTokenDTO accessTokendDTO = new AccessTokenDTO();
         accessTokendDTO.setCode(code);
         accessTokendDTO.setRedirect_uri(redirectUri);
         accessTokendDTO.setCliend_id(clientId);
@@ -48,7 +47,7 @@ public class AuthorizeController {
         System.out.println(accessToken);
         GithubUser githubUser = githubProvider.getUser(accessToken);
         System.out.println(githubUser);
-        if(githubUser != null){
+        if(githubUser != null && githubUser.getId() != null){
             User user = new User();
             String token = UUID.randomUUID().toString();
             user.setToken(token);
@@ -56,6 +55,7 @@ public class AuthorizeController {
             user.setAccountId(String.valueOf(githubUser.getId()));
             user.setGmtCreate(System.currentTimeMillis());
             user.setGmtModified(user.getGmtCreate());
+            user.setAvatarUrl(githubUser.getAvatarUrl());
             userMapper.insert(user);
             response.addCookie(new Cookie("token",token));
             return "redirect:/";
