@@ -2,7 +2,6 @@ package life.guohui.community.controller;
 
 import life.guohui.community.dto.AccessTokenDTO;
 import life.guohui.community.dto.GithubUser;
-import life.guohui.community.mapper.UserMapper;
 import life.guohui.community.model.User;
 import life.guohui.community.provider.GithubProvider;
 import life.guohui.community.service.UserService;
