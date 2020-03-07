@@ -1,0 +1,2 @@
+ALTER TABLE QUESTION ALTER column creator BIGINT DEFAULT not null;
+ALTER TABLE COMMENT ALTER column commentator BIGINT DEFAULT not null;
