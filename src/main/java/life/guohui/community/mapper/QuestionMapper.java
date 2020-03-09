@@ -1,12 +1,20 @@
 package life.guohui.community.mapper;
 
 import java.util.List;
+
+import life.guohui.community.dto.QuestionQueryDTO;
 import life.guohui.community.model.Question;
 import life.guohui.community.model.QuestionExample;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.session.RowBounds;
 
 public interface QuestionMapper {
+
+    Integer countBySearch(QuestionQueryDTO questionQueryDTO);
+
+    List<Question> selectBySearch(QuestionQueryDTO questionQueryDTO);
+
+    List<Question> selectRelated(Question question);
 
     int incCommentCount(Question record);
 

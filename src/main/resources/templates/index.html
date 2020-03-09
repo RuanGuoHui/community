@@ -10,6 +10,15 @@
     <script src="js/bootstrap.min.js" type="application/javascript"></script>
 
 </head>
+<script type="text/javascript">
+    window.onload = function () {
+        var closable = window.localStorage.getItem("closable");
+        if(closable){
+            window.close();
+            window.localStorage.removeItem("closable");
+        }
+    }
+</script>
 <body>
 
 <div th:insert="~{navigation :: nav}"></div>
@@ -18,7 +27,7 @@
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
             <h2><span class="glyphicon glyphicon-list" aria-hidden="true"></span> 发现</h2>
             <hr>
-            <div class="media" th:each="question : ${pagination.questions}">
+            <div class="media" th:each="question : ${pagination.data}">
                 <div class="media-left">
                     <a href="">
                         <img th:src="${question.user.getAvatarUrl()}" class="media-object img-rounded">
@@ -42,25 +51,25 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/?page=1" aria-label="Previous" th:if="${pagination.showPrevious}">
+                        <a th:href="@{/(page=1,search=${search})}" aria-label="Previous" th:if="${pagination.showPrevious}">
                             <span aria-hidden="true">&lt;</span>
                         </a>
                     </li>
 
 
                     <li th:each="page : ${pagination.pages}" th:class="${pagination.page == page}?'active':''">
-                        <a th:href="@{/(page=${page})}" th:text="${page}">
+                        <a th:href="@{/(page=${page},search=${search})}" th:text="${page}">
                             <span aria-hidden="true">&lt;</span>
                         </a>
                     </li>
                     <li>
-                        <a th:href="@{/(page=${pagination.page + 1})}" aria-label="Previous"
+                        <a th:href="@{/(page=${pagination.page + 1},search=${search})}" aria-label="Previous"
                            th:if="${pagination.showNext}">
                             <span aria-hidden="true">&gt;</span>
                         </a>
                     </li>
                     <li>
-                        <a th:href="@{/(page=${pagination.totalPage})}" aria-label="Previous"
+                        <a th:href="@{/(page=${pagination.totalPage},search=${search})}" aria-label="Previous"
                            th:if="${pagination.showEndPage}">
                             <span aria-hidden="true">&gt;&gt;</span>
                         </a>
@@ -70,10 +79,13 @@
             </nav>
         </div>
 
+        <!--其他平台账号-->
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-            <h3>热门话题</h3>
+            <h4>站长简书</h4>
+            <img class="img-thumbnail question-jianshu" src="/images/jianshu.png"/>
         </div>
     </div>
 </div>
+<div th:insert="~{footer :: foot}"></div>
 </body>
 </html>
