@@ -38,7 +38,7 @@
                         </ul>
                     </li>
                     <li th:unless="${session.user != null}">
-                        <a th:href="@{https://github.com/login/oauth/authorize(client_id='Iv1.bf5154208e60707f',redirect_uri=${#httpServletRequest.getServletContext().getAttribute('redirectUri')},scope='user',state=1)}">登录</a>
+                        <a th:href="@{https://github.com/login/oauth/authorize(client_id='Iv1.bf5154208e60707f',redirect_uri=${#httpServletRequest.getRequestURL()+'callback'},scope='user',state=1)}">登录</a>
                     </li>
                 </ul>
             </div>
