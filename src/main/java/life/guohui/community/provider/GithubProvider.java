@@ -7,19 +7,21 @@ import okhttp3.*;
 import org.springframework.stereotype.Component;
 
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 @Component
 public class GithubProvider {
     public String getAccessToken(AccessTokenDTO accessTokendDTO) {
         MediaType mediaType = MediaType.get("application/json; charset=utf-8");
-
         OkHttpClient client = new OkHttpClient();
-
 
         RequestBody body = RequestBody.create(mediaType, JSON.toJSONString(accessTokendDTO));
         Request request = new Request.Builder()
-                .url("https://github.com/login/oauth/access_token?client_id="+accessTokendDTO.getCliend_id()+"&client_secret="+accessTokendDTO.getClient_secret()+"&code="+accessTokendDTO.getCode()+"&redirect_uri=http://localhost:8887/callback&state=1")
+                .url("https://github.com/login/oauth/access_token?client_id="
+                        +accessTokendDTO.getCliend_id()+"&client_secret="
+                        +accessTokendDTO.getClient_secret()+"&code="+accessTokendDTO.getCode()
+                        +"&redirect_uri="+accessTokendDTO.getRedirect_uri()+"&state="+accessTokendDTO.getState())
                 .post(body)
                 .build();
         try (Response response = client.newCall(request).execute()) {

@@ -117,3 +117,187 @@
 2020-03-10 10:29:10.729  INFO 9588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2020-03-10 10:29:10.798  INFO 9588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
 2020-03-10 10:29:10.802  INFO 9588 --- [restartedMain] l.guohui.community.CommunityApplication  : Started CommunityApplication in 3.837 seconds (JVM running for 5.05)
+2020-03-10 11:14:32.748  INFO 8284 --- [restartedMain] l.guohui.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-5FGUUH2 with PID 8284 (E:\Users\IdeaProjects\community\target\classes started by Administrator in E:\Users\IdeaProjects\community)
+2020-03-10 11:14:32.770  INFO 8284 --- [restartedMain] l.guohui.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-10 11:14:32.889  INFO 8284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-10 11:14:32.909  INFO 8284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-10 11:14:35.393  INFO 8284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-10 11:14:35.434  INFO 8284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-10 11:14:35.435  INFO 8284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-03-10 11:14:35.563  INFO 8284 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-10 11:14:35.564  INFO 8284 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2655 ms
+2020-03-10 11:14:36.579  INFO 8284 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 11:14:36.760  INFO 8284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-10 11:14:37.132  INFO 8284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-10 11:14:37.231  INFO 8284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-10 11:14:37.236  INFO 8284 --- [restartedMain] l.guohui.community.CommunityApplication  : Started CommunityApplication in 5.709 seconds (JVM running for 7.669)
+2020-03-10 11:14:45.031  INFO 8284 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 11:14:45.032  INFO 8284 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-10 11:14:45.042  INFO 8284 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-03-10 11:14:45.129  INFO 8284 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-10 11:14:45.449  INFO 8284 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-10 11:24:18.226  INFO 12748 --- [restartedMain] l.guohui.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-5FGUUH2 with PID 12748 (E:\Users\IdeaProjects\community\target\classes started by Administrator in E:\Users\IdeaProjects\community)
+2020-03-10 11:24:18.256  INFO 12748 --- [restartedMain] l.guohui.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-10 11:24:18.351  INFO 12748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-10 11:24:18.352  INFO 12748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-10 11:24:21.237  INFO 12748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-10 11:24:21.268  INFO 12748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-10 11:24:21.268  INFO 12748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-03-10 11:24:21.487  INFO 12748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-10 11:24:21.487  INFO 12748 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3135 ms
+2020-03-10 11:24:22.384  INFO 12748 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 11:24:22.597  INFO 12748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-10 11:24:22.897  INFO 12748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-10 11:24:22.960  INFO 12748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-10 11:24:22.965  INFO 12748 --- [restartedMain] l.guohui.community.CommunityApplication  : Started CommunityApplication in 5.585 seconds (JVM running for 6.805)
+2020-03-10 11:24:27.014  INFO 12748 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 11:24:27.014  INFO 12748 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-10 11:24:27.023  INFO 12748 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-03-10 11:24:27.127  INFO 12748 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-10 11:24:27.437  INFO 12748 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-10 11:25:53.480  INFO 12748 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 11:25:53.481  INFO 12748 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-10 11:25:53.705  INFO 12748 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-10 11:25:54.322  INFO 12748 --- [restartedMain] l.guohui.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-5FGUUH2 with PID 12748 (E:\Users\IdeaProjects\community\target\classes started by Administrator in E:\Users\IdeaProjects\community)
+2020-03-10 11:25:54.323  INFO 12748 --- [restartedMain] l.guohui.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-10 11:25:55.074  INFO 12748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-10 11:25:55.076  INFO 12748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-10 11:25:55.076  INFO 12748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-03-10 11:25:55.104  INFO 12748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-10 11:25:55.104  INFO 12748 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 778 ms
+2020-03-10 11:25:55.546  INFO 12748 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 11:25:55.625  INFO 12748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-10 11:25:55.760  INFO 12748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-10 11:25:55.809  INFO 12748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-10 11:25:55.810  INFO 12748 --- [restartedMain] l.guohui.community.CommunityApplication  : Started CommunityApplication in 1.55 seconds (JVM running for 99.65)
+2020-03-10 11:25:55.814  INFO 12748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-10 11:26:01.677  INFO 12748 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 11:26:01.679  INFO 12748 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-10 11:26:01.689  INFO 12748 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-03-10 11:26:01.693  INFO 12748 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-10 11:26:01.703  INFO 12748 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-10 11:27:03.261  WARN 12748 --- [http-nio-8887-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
+2020-03-10 11:36:48.142  INFO 12748 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 11:36:48.143  INFO 12748 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-03-10 11:36:48.364  INFO 12748 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-03-10 11:36:48.895  INFO 12748 --- [restartedMain] l.guohui.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-5FGUUH2 with PID 12748 (E:\Users\IdeaProjects\community\target\classes started by Administrator in E:\Users\IdeaProjects\community)
+2020-03-10 11:36:48.896  INFO 12748 --- [restartedMain] l.guohui.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-10 11:36:49.623  INFO 12748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-10 11:36:49.624  INFO 12748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-10 11:36:49.624  INFO 12748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-03-10 11:36:49.644  INFO 12748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-10 11:36:49.644  INFO 12748 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 742 ms
+2020-03-10 11:36:49.677  WARN 12748 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorizeController' defined in file [E:\Users\IdeaProjects\community\target\classes\life\guohui\community\controller\AuthorizeController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [life.guohui.community.controller.AuthorizeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a1e401]
+2020-03-10 11:36:49.678  INFO 12748 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-10 11:36:49.689  INFO 12748 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-10 11:36:49.709 ERROR 12748 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorizeController' defined in file [E:\Users\IdeaProjects\community\target\classes\life\guohui\community\controller\AuthorizeController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [life.guohui.community.controller.AuthorizeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a1e401]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:570) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$116/21513164.getObject(Unknown Source) ~[na:na]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at life.guohui.community.CommunityApplication.main(CommunityApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [life.guohui.community.controller.AuthorizeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a1e401]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:768) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:700) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:365) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:350) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:298) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1077) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:567) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Llife/guohui/community/provider/GithubProvider;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_40]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_40]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_40]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:763) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: life.guohui.community.provider.GithubProvider
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_40]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_40]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:148) ~[spring-boot-devtools-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_40]
+	... 31 common frames omitted
+
+2020-03-10 11:37:27.350  INFO 11100 --- [restartedMain] l.guohui.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-5FGUUH2 with PID 11100 (E:\Users\IdeaProjects\community\target\classes started by Administrator in E:\Users\IdeaProjects\community)
+2020-03-10 11:37:27.365  INFO 11100 --- [restartedMain] l.guohui.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-10 11:37:27.428  INFO 11100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-10 11:37:27.428  INFO 11100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-10 11:37:28.834  INFO 11100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-10 11:37:28.865  INFO 11100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-10 11:37:28.865  INFO 11100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-03-10 11:37:28.959  INFO 11100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-10 11:37:28.959  INFO 11100 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1531 ms
+2020-03-10 11:37:29.599  INFO 11100 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 11:37:29.740  INFO 11100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-10 11:37:29.927  INFO 11100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-10 11:37:29.974  INFO 11100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-10 11:37:29.990  INFO 11100 --- [restartedMain] l.guohui.community.CommunityApplication  : Started CommunityApplication in 3.093 seconds (JVM running for 5.162)
+2020-03-10 11:37:32.839  INFO 11100 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 11:37:32.839  INFO 11100 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-10 11:37:32.848  INFO 11100 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-03-10 11:37:32.917  INFO 11100 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-10 11:37:33.193  INFO 11100 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-10 11:37:43.247 ERROR 11100 --- [http-nio-8887-exec-5] l.g.c.controller.AuthorizeController     : callback get github error,GithubUser(name=null, id=null, bio=null, avatarUrl=null)
+2020-03-10 11:43:34.927  INFO 11100 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 11:43:34.927  INFO 11100 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-10 11:43:35.162  INFO 11100 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-10 11:43:35.595  INFO 11100 --- [restartedMain] l.guohui.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-5FGUUH2 with PID 11100 (E:\Users\IdeaProjects\community\target\classes started by Administrator in E:\Users\IdeaProjects\community)
+2020-03-10 11:43:35.595  INFO 11100 --- [restartedMain] l.guohui.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-10 11:43:36.110  INFO 11100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-10 11:43:36.110  INFO 11100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-10 11:43:36.110  INFO 11100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-03-10 11:43:36.126  INFO 11100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-10 11:43:36.126  INFO 11100 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 531 ms
+2020-03-10 11:43:36.376  INFO 11100 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 11:43:36.438  INFO 11100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-10 11:43:36.548  INFO 11100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-10 11:43:36.579  INFO 11100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-10 11:43:36.579  INFO 11100 --- [restartedMain] l.guohui.community.CommunityApplication  : Started CommunityApplication in 1.031 seconds (JVM running for 371.758)
+2020-03-10 11:43:36.579  INFO 11100 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-10 11:43:44.281  INFO 11100 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 11:43:44.282  INFO 11100 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-10 11:43:44.289  INFO 11100 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-03-10 11:43:44.292  INFO 11100 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-10 11:43:44.300  INFO 11100 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-10 12:48:47.348  INFO 3548 --- [restartedMain] l.guohui.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-5FGUUH2 with PID 3548 (E:\Users\IdeaProjects\community\target\classes started by Administrator in E:\Users\IdeaProjects\community)
+2020-03-10 12:48:47.351  INFO 3548 --- [restartedMain] l.guohui.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-10 12:48:47.425  INFO 3548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-10 12:48:47.425  INFO 3548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-10 12:48:49.465  INFO 3548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-10 12:48:49.500  INFO 3548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-10 12:48:49.500  INFO 3548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-03-10 12:48:49.613  INFO 3548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-10 12:48:49.613  INFO 3548 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2188 ms
+2020-03-10 12:48:50.355  INFO 3548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 12:48:50.545  INFO 3548 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-10 12:48:50.819  INFO 3548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-10 12:48:50.882  INFO 3548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-10 12:48:50.886  INFO 3548 --- [restartedMain] l.guohui.community.CommunityApplication  : Started CommunityApplication in 4.151 seconds (JVM running for 5.796)
+2020-03-10 12:49:00.884  INFO 3548 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 12:49:00.885  INFO 3548 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-10 12:49:00.899  INFO 3548 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-03-10 12:49:01.002  INFO 3548 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-10 12:49:01.254  INFO 3548 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
